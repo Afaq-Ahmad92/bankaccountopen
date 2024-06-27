@@ -1,0 +1,110 @@
+.Solution {
+    box-sizing: border-box !important;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    object-fit: contain;
+    color: white;
+    background-image: url('../../../../public/assets/Solution.jpg');
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Solution h5 {
+    font-size: 60px;
+    width: 60%;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+
+.Solution p {
+    width: 60%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.Counters {
+    position: relative;
+    width: 100% !important;
+    background-color: rgb(255, 255, 255);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 90px;
+}
+
+.Counter {
+    background-color: rgb(255, 255, 255);
+    min-width: 260px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -45px 15px 0 15px;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(240, 240, 240);
+    box-shadow: 1px 1px 1px 1px rgb(240, 240, 240), -1px -1px 1px 1px rgb(240, 240, 240);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Solution {
+        padding: 0 15px 15px 15px;
+        min-height: 500px;
+    }
+
+    .Solution h5 {
+        width: 100%;
+        font-size: 34px;
+    }
+
+    .Solution p {
+        width: 100%;
+    }
+
+    .Counters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .Counter {
+        width: 100% !important;
+        margin: 15px 0px;
+        min-height: 200px;
+    }
+}
+
+/* @media only screen and (min-width: 600px) {
+    .HServices{
+        background-color: rgb(47, 132, 206);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .HServices{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .HServices{
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .HServices{
+        background-color: red;
+    }
+} */

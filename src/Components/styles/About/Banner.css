@@ -1,0 +1,23 @@
+.ABanner {
+    box-sizing: border-box !important;
+    min-height: 400px;
+    object-fit: contain;
+    color: white;
+    background-image: url('../../../../public/assets/Solution.jpg');
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.ABanner h1 {
+    font-size: 72px !important;
+    font-weight: 800;
+    padding: 20px 90px 20px 120px !important;
+    line-height: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .ABanner h1 {
+        font-size: 40px !important;
+    }
+}

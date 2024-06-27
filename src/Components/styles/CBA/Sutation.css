@@ -1,0 +1,105 @@
+.SuationMain {
+    width: 100%;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TopText {
+    padding-top: 15px;
+    flex: 0.10;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.TopText h3 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1em;
+}
+
+.TopText p {
+    font-size: 18px;
+    line-height: 1em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.SuationCards {
+    flex: 0.45;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.SuationLeft {
+    flex: 0.35;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
+}
+
+.SuationRight {
+    flex: 0.35;
+    width: 35%;
+    height: 100%;
+    padding-left: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+@media only screen and (max-width: 600px) {
+    .TopText {
+        padding-top: 30px;
+        align-items: start;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .SuationCards {
+        flex-direction: column;
+    }
+
+    .SuationLeft {
+        flex: 1;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .SuationRight {
+        flex: 1;
+        width: 100%;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .TopText h3 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    .TopText h4 {
+        font-size: 34px;
+        width: 100% !important;
+        text-align: left;
+    }
+}

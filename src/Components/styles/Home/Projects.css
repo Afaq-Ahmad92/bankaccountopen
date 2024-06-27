@@ -1,0 +1,167 @@
+.Projects__Main {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f5f4;
+    padding-top: 15px;
+}
+
+.Text {
+    flex: 0.10;
+}
+
+.Text2 {
+    flex: 0.10;
+}
+
+.Projects {
+    flex: 0.80;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.Projects__Main h5 {
+    padding: 0 0 10px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1em;
+}
+.Projects__Main h6 {
+    padding: 10px 0;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.Project {
+    padding: 0 15px;
+    position: relative;
+    display: inline-block;
+    height: 100% !important;
+}
+
+.Project img {
+    width: 100%;
+    /* Adjust as needed */
+    height: 400px !important;
+    /* Adjust as needed */
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition for hover effects */
+}
+
+.Project img:hover {
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    transform: scale(1.05);
+    /* Slightly enlarge the image on hover */
+}
+
+/* Additional animation for entrance */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.Project img {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.hover-text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Project:hover .hover-text {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .Projects__Main {
+        padding-top: 30px;
+    }
+
+    .Projects {
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .Project {
+        margin: 15px 0;
+        padding: 0;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+
+    .Project img {
+        border-radius: 10px;
+        width: 100%;
+        /* Adjust as needed */
+        height: 300px !important;
+        /* Adjust as needed */
+
+    }
+
+    .Projects__Main h5 {
+        font-size: 32px !important;
+    }
+
+    .Projects__Main h6 {
+        text-align: center;
+        font-size: 30px !important;
+    }
+
+    .hover-text {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* 
+
+@media only screen and (min-width: 600px) {
+    .HServices{
+        background-color: rgb(47, 132, 206);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .HServices{
+        background-color: yellow;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .HServices{
+        background-color: green;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .HServices{
+        background-color: red;
+    }
+} */

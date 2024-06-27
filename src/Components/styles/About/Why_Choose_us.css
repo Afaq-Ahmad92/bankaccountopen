@@ -1,0 +1,47 @@
+.WSolution {
+    box-sizing: border-box !important;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120px;
+    object-fit: contain;
+    color: white;
+    background-image: url('../../../../public/assets/Solution.jpg');
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.WSolution h3 {
+    font-size: 64px !important;
+    width: 50%;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+
+.WSolution p {
+    width: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .WSolution {
+        margin-top: 0px !important;
+        padding: 30px 15px 15px 15px;
+    }
+
+    .WSolution h3 {
+        width: 100%;
+        font-size: 36px !important;
+    }
+
+    .WSolution p {
+        width: 100%;
+    }
+}

@@ -1,0 +1,114 @@
+.Get__touch {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.GTop {
+    flex: 0.50;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.GBottom h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+
+.GTop, .GBottom p {
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 1em;
+}
+
+.GTop h2 {
+    font-size: 68px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1em;
+    text-transform: capitalize;
+}
+
+.GBottom {
+    flex: 0.50;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.Gfirst {
+    width: 25%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #cacaca;
+}
+
+
+.Gicon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.Gicon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    /* Customize the icon color */
+    font-size: 3rem;
+    /* Customize the icon size */
+}
+
+@media only screen and (max-width: 600px) {
+    .GTop {
+        padding: 30px;
+    }
+
+    .GBottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Gfirst {
+        width: 100%;
+        border-right: none;
+        min-height: 200px;
+        box-shadow: 1px 1px 1px 1px black, -1px -1px 1px 1px black;
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Gicon {
+        color: black !important;
+        font-size: 3rem !important;
+    }
+    .GTop h2 {
+        font-size: 38px !important;
+    }
+    .GBottom h3 {
+        font-size: 30px !important;
+    }
+
+}

@@ -1,0 +1,46 @@
+.ServicesCard {
+    margin: 15px;
+    width: 370px;
+    height: 300px;
+    box-shadow: 2px 2px 2px 1px rgb(197, 197, 197), -2px -2px 2px 1px rgb(197, 197, 197);
+    border-radius: 5px;
+    padding: 15px;
+    min-height: 150px;
+    margin-bottom: 15px;
+}
+
+.ServicesCard img {
+    margin-bottom: 10px;
+    background-color: rgb(250, 250, 250) !important;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ServicesCard h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.ServicesCard p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+    .ServicesCard {
+        margin: 10px;
+        width: 380px;
+        height: 300px;
+        box-shadow: 2px 2px 2px 1px rgb(197, 197, 197), -2px -2px 2px 1px rgb(197, 197, 197);
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .ServicesCard h3 {
+        font-size: 24px !important;
+        font-weight: 600;
+    }
+}
